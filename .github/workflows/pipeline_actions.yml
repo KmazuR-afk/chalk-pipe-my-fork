@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - ino_dev
-
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
