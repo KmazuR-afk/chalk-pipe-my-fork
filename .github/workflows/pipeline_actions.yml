@@ -5,6 +5,9 @@ on:
     branches:
       - ino_dev
   workflow_dispatch:
+    inputs:
+        tags:
+          description: 'Nothing'
 jobs:
   build:
     runs-on: ubuntu-latest
